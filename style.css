@@ -10,8 +10,8 @@ header {
   text-align: right;
   margin: auto;
   padding-top: 5px;
-  padding-right: 87px;
-  width: 937px;
+  width: 974px;
+  padding-right: 50px;
 }
 .menu > a {
   color: white;
@@ -26,30 +26,30 @@ header {
 .logo {
   padding-top: 10px;
   margin: auto;
-  width: 937px;
+  width: 974px;
+  padding-left: 50px;
 
   font-family: "Rokkitt", serif;
   color: #ffffff;
   text-align: left;
   font-size: 60px;
-  padding-left: 87px;
 }
 .logo-short {
   margin: auto;
-  width: 937px;
+  width: 974px;
+  padding-left: 50px;
 
   font-family: "ABeeZee", serif;
   color: #ffffff;
   text-align: left;
   font-size: 19px;
   margin-top: -8px;
-  padding-left: 87px;
 }
 .about {
   padding-top: 20px;
   margin: auto;
-  width: 937px;
-  padding-left: 87px;
+  width: 974px;
+  padding-left: 50px;
 
   font-family: "Rokkitt", serif;
   text-align: left;
@@ -84,7 +84,7 @@ main {
   padding-top: 30px;
   padding-left: 87px;
 
-  font-family: "Rokkitt", serif;
+  font-family: "ABeeZee", serif;
   font-size: 30px;
 }
 figure {
@@ -100,6 +100,17 @@ figure {
   padding: 5px;
   border-style: solid;
   border-color: green;
+}
+figcaption {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-logo-lang {
+  padding-top: 2px;
+}
+.project-titel {
+  padding-left: 7px;
+  margin: auto 0;
 }
 
 footer {
