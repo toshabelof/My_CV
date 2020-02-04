@@ -10,14 +10,14 @@ header {
   text-align: right;
   margin: auto;
   padding-top: 5px;
-  padding-right: 87px;
-  width: 937px;
+  width: 974px;
+  padding-right: 50px;
 }
 .menu > a {
   color: white;
   padding: 2px;
   text-decoration: none;
-  font-family: "ABeeZee", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
 .menu > a:hover {
@@ -26,44 +26,42 @@ header {
 .logo {
   padding-top: 10px;
   margin: auto;
-  width: 937px;
-
-  font-family: "Rokkitt", serif;
-  color: #ffffff;
-  text-align: left;
-  font-size: 60px;
-  padding-left: 87px;
-}
-.logo-short {
-  margin: auto;
-  width: 937px;
+  width: 974px;
+  padding-left: 50px;
 
   font-family: "ABeeZee", serif;
   color: #ffffff;
   text-align: left;
+  font-size: 60px;
+}
+.logo-short {
+  margin: auto;
+  width: 974px;
+  padding-left: 50px;
+
+  font-family: "Roboto", serif;
+  color: #ffffff;
+  text-align: left;
   font-size: 19px;
   margin-top: -8px;
-  padding-left: 87px;
 }
 .about {
   padding-top: 20px;
   margin: auto;
-  width: 937px;
-  padding-left: 87px;
-
-  font-family: "Rokkitt", serif;
+  width: 974px;
+  padding-left: 50px;
   text-align: left;
 }
 .btn_about {
   border: none;
 
   background-color: #e76c2f;
-  font-family: "Rokkitt", serif;
+  font-family: "Roboto", serif;
   color: #ffffff;
   text-align: center;
   font-size: 18px;
-  width: 135px;
-  height: 41px;
+  width: 120px;
+  height: 35px;
 }
 .btn_about:hover {
   background-color: #d0632c;
@@ -84,7 +82,7 @@ main {
   padding-top: 30px;
   padding-left: 87px;
 
-  font-family: "Rokkitt", serif;
+  font-family: "Roboto", serif;
   font-size: 30px;
 }
 figure {
@@ -100,14 +98,42 @@ figure {
   padding: 5px;
   border-style: solid;
   border-color: green;
+  font-family: "Roboto", serif;
+}
+figcaption {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-logo-lang {
+  padding-top: 2px;
+}
+.project-titel {
+  padding-left: 7px;
+  margin: auto 0;
 }
 
 footer {
-  display: flex;
-  background-color: tomato;
-  height: 30px;
-  width: 984px;
+  background-color: #2f333c;
+  height: 100%;
+  width: 1024px;
   text-align: center;
   margin: auto;
-  padding: 20px 20px;
+}
+
+.footer-contact-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin: auto;
+  padding-top: 15px;
+}
+.footer-contact {
+  text-align: center;
+  margin: auto;
+  padding: 15px 0px;
+
+  color: #ffffff;
+  font-family: "Roboto", serif;
+  font-size: 14px;
 }
