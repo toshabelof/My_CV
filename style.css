@@ -112,6 +112,20 @@ figcaption {
   margin: auto 0;
 }
 
+.my-hobby {
+  background-size: cover;
+  background-image: url("/Res/my-hobby.jpg");
+  height: 340px;
+  cursor: pointer;
+}
+
+.my-hobby-text {
+  padding-top: 150px;
+  font-family: "Roboto", serif;
+  font-size: 40px;
+  color: #ffffff;
+}
+
 footer {
   background-color: #2f333c;
   height: 100%;
